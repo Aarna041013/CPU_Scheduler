@@ -1,0 +1,15 @@
+#ifndef PROCESS_H
+#define PROCESS_H
+
+struct Process {
+  int pid;
+  int arrivalTime;
+  int burstTime;
+  int remainingTime;
+  int priority;
+  int waitingTime;
+  int turnaroundTime;
+  bool completed;
+};
+
+#endif // PROCESS_H
